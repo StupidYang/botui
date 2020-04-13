@@ -45,8 +45,7 @@ function bot_ui_ini() {
 }).then(function (a) {
         "sure" == a.value && sure();
         "skip" == a.value && end()
-                })
-};
+                });
 
 var sure = function () {
             botui.message.add({
@@ -102,7 +101,15 @@ var sure = function () {
         "thx" == a.value && thx();
         "Jashin" == a.value && Jashin()
                 })
-});
+				})
+				})
+				})
+				})
+				})
+				})
+				})
+})
+		};
 
 var Jashin = function(){
 	botui.message.add({
@@ -117,6 +124,8 @@ var Jashin = function(){
                     delay: 500,
                     content: "![...](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1586770186728&di=2cc68c66cb1435cf3928efb883825993&imgtype=0&src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fq_70%2Cc_zoom%2Cw_640%2Fimages%2F20181014%2F13ad7bdd88d54f21b6a40043117772c4.jpeg)"
                 })
+})
+			})
 }
 
 var thx = function(){
@@ -133,7 +142,8 @@ var end = function(){
             }).then(() => {
   return botui.message.bot({ // second one
     delay: 500, // wait 1 sec.
-    content: "![...](http://ww1.sinaimg.cn/large/9150e4e5ly1fsaexoyd6lj20el0elaaz.jpg)"
+    content: "![...](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1586774445703&di=8510e37bed1eb5b9a929b2a797f9e3a9&imgtype=0&src=http%3A%2F%2Fww1.sinaimg.cn%2Fbmiddle%2F9150e4e5ly1fsaexoyd6lj20el0elaaz.jpg)"
   })
 })
+}
 }
